@@ -40,6 +40,6 @@ app.use((req, res, next) => {
   res.render('maintenance.hbs');
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8000, () => {
   console.log('Server is up on port 8000');
 });
