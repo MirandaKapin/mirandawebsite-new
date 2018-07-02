@@ -1,3 +1,63 @@
+
+
+/* General */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background: #f1f1f1;
+}
+.background {
+  background: #f1f1f1 url("/images/desk.jpg") no-repeat center center fixed;
+  padding-top: 250px;
+  margin-bottom: -40px;
+  padding-bottom: 40px;
+}
+.cursive { font-family: Pacifico, sans-serif; }
+.full-height { margin: auto 0;}
+.row{ margin: 0 !important;}
+.header {
+  padding-top: 1em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Navigation */
+.name {font-size: 1.5rem !important;}
+.nav-style {
+  background-color: #159486;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+.nav-main { color: #fff; }
+.nav-main span { font-size: 2em; }
+
+.nav-item.active {
+  border-bottom: 3px solid #FE5621;
+  font-weight: bold;
+}
+.nav-item.active a{ color: #fff !important; }
+.nav-item a { color: #B1DEDA; }
+.nav-item a:hover{
+  color: #fff;
+  text-decoration:  none;
+}
+
+/* Main Area */
+.main-area {
+  background: #fff;
+  padding: 2em;
+  box-shadow: 1px 1px 6px #ccc;
+}
+.label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9em;
+}
+.contact { font-size: .9em; }
+.contact a { color: #159486; }
+
 /* Experience */
 .experience-date {
   color: #009587;
@@ -24,62 +84,6 @@
   line-height: 1.25;
 }
 .orange-top {border-top: 2px solid #FE5621;}
-
-/* General */
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
-  background: #f1f1f1;
-}
-.background {
-  background: #f1f1f1 url("/images/desk.jpg") no-repeat center center fixed;
-  padding-top: 250px;
-  margin-bottom: -40px;
-  padding-bottom: 40px;
-}
-.cursive { font-family: Pacifico, sans-serif; }
-.full-height { margin: auto 0;}
-.row{ margin: 0 !important;}
-.header {
-  padding-top: 1em;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-/* Navigation */
-.nav-style {
-  background-color: #159486;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
-.nav-main { color: #fff; }
-.nav-main span { font-size: 2em; }
-.nav-item.active {
-  border-bottom: 3px solid #FE5621;
-  font-weight: bold;
-}
-.nav-item.active a{ color: #fff !important; }
-.nav-item a { color: #B1DEDA; }
-.nav-item a:hover{
-  color: #fff;
-  text-decoration:  none;
-}
-
-/* Main Area */
-.main-area {
-  background: #fff;
-  padding: 2em;
-  box-shadow: 1px 1px 6px #ccc;
-}
-.label {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: .9em;
-}
-.contact { font-size: .9em; }
-.contact a { color: #159486; }
 
 /* Footer */
 footer {
