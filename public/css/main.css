@@ -15,6 +15,7 @@ body {
 .cursive { font-family: Pacifico, sans-serif; }
 .full-height { margin: auto 0;}
 .row{ margin: 0 !important;}
+.container {padding: 0;}
 .header {
   padding-top: 1em;
   font-weight: bold;
@@ -32,7 +33,6 @@ body {
 }
 .nav-main { color: #fff; }
 .nav-main span { font-size: 2em; }
-
 .nav-item.active {
   border-bottom: 3px solid #FE5621;
   font-weight: bold;
